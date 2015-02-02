@@ -50,7 +50,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
       Doch Doch!
 
-    ZWEITER VERSUCH!!!!
+    ZWEITER VERSUCH!!!!dgdgdfgggggggggggggg
 
       elsif k==:up                                              #Arrow_tastatur oben
         frosch_oben.show.move(x1, y1 - 40)                      #Bei Tastendruck Bewegung um 40 Pixel nach oben
