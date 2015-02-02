@@ -29,6 +29,8 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
   baumstamm(-250,160)
   baumstamm(800,200)
 
+    Frogger Frogg frogg frogger Frogg
+
   x1= 400                                                       #Variable x1 das Rechtecks; Position vom linken Punkt ausgehend
   y1= 440                                                       #Variable y1 das Rechtecks; Position vom oberern Punkt ausgehend
 
