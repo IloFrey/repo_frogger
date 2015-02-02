@@ -45,7 +45,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
     keypress do |Hallo Olga, das ist eine Änderung... Sorry für den Konflikt!
 
-      kielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
+      kielen Dank liebe Stefanie für den Konf...
     endkkk
 
       Doch Doch!
