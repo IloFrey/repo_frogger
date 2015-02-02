@@ -45,12 +45,12 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
     keypress do |Hallo Olga, das ist eine Änderung... Sorry für den Konflikt!
 
-      Vielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
-    end
+      kielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
+    endkkk
 
       Doch Doch!
 
-    ZWEITER VERSUCH!!!!dgdgdfgggggggggggggg
+    ZWE
 
       elsif k==:up                                              #Arrow_tastatur oben
         frosch_oben.show.move(x1, y1 - 40)                      #Bei Tastendruck Bewegung um 40 Pixel nach oben
