@@ -67,9 +67,9 @@ class Schwimmobjekt
     @geschwindigkeit = geschwindigkeit
     @direction = 1
     @breite = 200
-    @hoehe = 30
+    @hoehe = 56
 
-    @image = @app.image "Baumstamm.jpg",width: @breite, height:@hoehe
+    @image = @app.image "Baumstamm.jpg",width: 750, height:200
   end
 
 
@@ -78,3 +78,5 @@ class Schwimmobjekt
 
 
 MEINE ÄNDERUNG
+
+  Ich (olga) ändere jetzt hier was
