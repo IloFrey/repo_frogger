@@ -1,8 +1,8 @@
 #kommen
 RASTER = 40
-FENSTER_BREITE= 20 * RASTER #800
-FENSTER_HOEHE = 12 * RASTER #480
-BEGRENZUNG_OBEN = 0 + RASTER #40
+FENSTER_BREITE= 20 * RAST
+FENSTER_HOEHE = 12 * RASTER
+BEGRENZUNG_OBEN = 0 + RASTER
 BEGRENZUNG_UNTEN    = FENSTER_HOEHE - RASTER #440
 BEGRENZUNG_RECHTS   = FENSTER_BREITE - (2*RASTER)
 BEGRENZUNG_LINKS   = 0 + RASTER
@@ -24,7 +24,38 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
       #sprungweite initialisieren
       @sprung = sprung
       #anfangsposition initialisieren damit der Frosch bei Lebenverlust zurückgesetzt wird
-      ey!
+      @start_position_x = start_x
+      @start_position_y = start_y
+      #sichere Anzahl der Leben
+      @leben = anzahl_leben
+      #Bild dem Objekt zuweisen
+      @image = @app.image "frogger_spielfigur_up.png", width: RASTER, height: RASTER
+      #Der Frosch erscheint auf dieser Position
+      @image.move(@x_position, @y_position)
+    end
+
+    #Diese Methode soll aufgerufen werden, wenn der Frosch sein leben verliert
+    def leben_verloren(animation)
+      @leben -= 1
+      if(@leben <= 0)
+        @app.alert "Game Over"
+        animation.stop
+      else
+        @x_position = @start_position_x
+        @y_position = @start_position_y
+        @image.move(@x_position, @y_position)
+      end
+    end
+
+    #Mit dieser Methode kann die Sprungweite von Frosch geändert werden
+    def set_sprung(sprung)
+      @sprung = sprung
+    end
+
+    #Diese Methode soll Tastedruckevent anlegen (wie Animation). Je nach Tastendruck wird hier definiert was mit dem
+    #Frosch passieren soll
+    def start
+      @app.keypress do |k|
         if k ==:down and @y_position <= BEGRENZUNG_UNTEN
           @y_position +=  @sprung
           @image.path = "frogger_spielfigur_down.png"
@@ -94,7 +125,9 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
             @direction = 1
           end
 
-
+          @start_position_y = start_y
+          #sichere Anzahl der Leben
+          @leben = anzahl_leben
         end
       end
     end
@@ -193,7 +226,7 @@ auto6 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,280,2, -1, frosch)
 auto2 = Fahrzeug.new(self,"Frogger_Auto_Hellblau.png",60,30,60,320,4, 1, frosch)
 auto3 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,360,3, -1, frosch)
 auto4 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
-auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, gans)
+auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
 
 #starte die Autobewegung
 auto.bewegung2jkj
