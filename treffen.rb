@@ -76,8 +76,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
    end
 end
 
-                            def neue methode
+ghsgdjshdhuun
 
-                              hdbchshh#Block Bewegung ende
-                            end
+
 
