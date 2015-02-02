@@ -48,12 +48,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
       Vielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
     end
 
-      if k==:down                                               #Fallentscheidung zur Definition der 4 Richtungen des Rechtecks; Arrow_tastatur nach unten
-        frosch_unten.show.move(x1, y1 + 40)                     #Bei Tastendruck Bewegung um 40 Pixel nach unten
-        y1 += 40                                                #jeder weitere Tastendruck bewegt das Rechteck um 40 Pixel weiter nach unten
-        frosch_links.hide
-        frosch_rechts.hide
-        frosch_oben.hide
+      Neeeeeeee
 
       elsif k==:up                                              #Arrow_tastatur oben
         frosch_oben.show.move(x1, y1 - 40)                      #Bei Tastendruck Bewegung um 40 Pixel nach oben
