@@ -43,7 +43,10 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
 
 
-    keypress do |Hallo Olga, das ist eine Änderung... Sorry für den Konflikt!                                           #Tastaturen_Block
+    keypress do |Hallo Olga, das ist eine Änderung... Sorry für den Konflikt!
+
+      Vielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
+    end
 
       if k==:down                                               #Fallentscheidung zur Definition der 4 Richtungen des Rechtecks; Arrow_tastatur nach unten
         frosch_unten.show.move(x1, y1 + 40)                     #Bei Tastendruck Bewegung um 40 Pixel nach unten
