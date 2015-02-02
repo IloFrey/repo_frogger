@@ -144,7 +144,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
       @direction = direction
       @kollisionsobjekt = koll_object
       @startposition = x
-      @image = @app.image pfad, width:breite, height:hoehe
+      @image = @app.image pfad, width:breite, height:kkk
     end
 
     def bewegung
@@ -231,9 +231,10 @@ auto.bewegung
 auto2.bewegung
 auto3.bewegung
 auto4.bewegung
-auto5.bewegung
-auto6.bewegung
+
 
 end
+
+Ich schreibe jetz was hier rein, damit der Konflikt endlich klappt!
 
 
