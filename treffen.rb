@@ -48,7 +48,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
       Vielen Dank liebe Stefanie für den Konflikt! Habe mich sehr drüber gefreut!#Tastaturen_Block
     end
 
-      Neeeeeeee
+      Doch Doch!
 
     ZWEITER VERSUCH!!!!
 
@@ -63,7 +63,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 class Schwimmobjekt
 
   def initialize(app,x,y,geschwindigkeit)
-    @app = app
+    @app = bla
     @x_position = x
     @y_position = y
     @geschwindigkeit = geschwindigkeit
