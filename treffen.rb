@@ -51,8 +51,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
       Doch Doch!
 
     ZWE
-
-      elsif k==:up                                              #Arrow_tastatur oben
+jb lhzugogzugil                                    #Arrow_tastatur oben
         frosch_oben.show.move(x1, y1 - 40)                      #Bei Tastendruck Bewegung um 40 Pixel nach oben
         y1 -= 40                                                #jeder weitere Tastendruck bewegt das Rechteck um 40 Pixel weiter nach oben
 
