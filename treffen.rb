@@ -62,23 +62,6 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
 class Schwimmobjekt
 
-  def initialize(app,x,y,geschwindigkeit)
-    @app = bla
-    @x_position = x
-    @y_position = y
-    @geschwindigkeit = geschwindigkeit
-    @direction = 1
-    @breite = 200
-    @hoehe = 56
-
-    @image = @app.image "Baumstamm.jpg",width: 750, height:200
+  def initiammmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmkjjioj
   end
-
-
-
-        DIES IST EINE ÄNDERUNG DURCH STEFASHKA
-
-
-MEINE ÄNDERUNG
-
-  Ich (olga) ändere jetzt hier was
