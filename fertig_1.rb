@@ -216,3 +216,24 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
   auto6.bewegung
 
 end
+
+#Erstellen des Autos
+
+auto = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,280,2, -1, frosch)
+auto6 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,280,2, -1, frosch)
+auto2 = Fahrzeug.new(self,"Frogger_Auto_Hellblau.png",60,30,60,320,4, 1, frosch)
+auto3 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,360,3, -1, frosch)
+auto4 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
+auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
+
+#starte die Autobewegung
+auto.bewegung
+auto2.bewegung
+auto3.bewegung
+auto4.bewegung
+auto5.bewegung
+auto6.bewegung
+
+end
+
+
