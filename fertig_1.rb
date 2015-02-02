@@ -173,7 +173,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
 
 
   #Hauptprogramm
-
+mdsögk
   #Erstellen der Baumstämme
   baumstamm1 = Schwimmobjekt.new(self,800,120,1)
   baumstamm2 = Schwimmobjekt.new(self,800,200,1)
@@ -184,7 +184,8 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
   frosch = Frosch.new(self, FENSTER_BREITE/2, 440, RASTER, 3)
 
   #starte die Bausmtammanimation und übergebe das objekt frosch als Referenz
-  baumstamm1.start(frosch)
+
+
   baumstamm2.start(frosch)
   baumstamm3.start(frosch)
   baumstamm4.start(frosch)
@@ -226,6 +227,7 @@ auto2.bewegung
 auto3.bewegung
 auto4.bewegung
 
+@y_position = @start_position_y
 
 end
 
