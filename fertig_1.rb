@@ -143,15 +143,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
       @x_position = x
       @y_position = y
       @geschwindigkeit = geschwindigkeit
-      @direction = direction
-      @kollisionsobjekt = koll_object
-      @startposition = x
-      @image = @app.image pfad, width:breite, height:hoehe
-    end
-
-    def bewegung
-
-      @app.timer(rand(3)) do
+      @direction = directionjgzzgh do
         animation = @app.animate (60) do
           if @x_position > 700 or @x_position < 40
             @x_position = @startposition
