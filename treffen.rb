@@ -60,13 +60,17 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
       elsif k==:right                                           #Arrow_tastatur rechts
         frosch_rechts.show.move(x1 + 40, y1)                    #Bei Tastendruck Bewegung um 40 Pixel nach rechts
         x1 += 40                                                #jeder weitere Tastendruck bewegt das Rechteck um 40 Pixel weiter nach rechts
-        frosch_links.hide
+        frosch_rechts.hide
         frosch_oben.hide
         frosch_unten.hide
 
       elsif k==:left                                            #Arrow_tastatur links
         frosch_links.show.move(x1 - 40, y1)                              #Bei Tastaturdruck Bewegung um 40 Pixel nach links
-        x1 -= 40                                                #jeder weitere Tastaturdruck bewegt das Rechteck um 40 Pixel weiter nach links
+        x1 -= 40
+        frosch_links.hide
+        frosch_oben.hide
+        frosch_unten.hide
+#jeder weitere Tastaturdruck bewegt das Rechteck um 40 Pixel weiter nach links
         frosch_rechts.hide
         frosch_oben.hide
         frosch_unten.hide
