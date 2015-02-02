@@ -193,7 +193,7 @@ auto6 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,280,2, -1, frosch)
 auto2 = Fahrzeug.new(self,"Frogger_Auto_Hellblau.png",60,30,60,320,4, 1, frosch)
 auto3 = Fahrzeug.new(self, "Frogger_Auto_gelb.png",60,30,700,360,3, -1, frosch)
 auto4 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
-auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch)
+auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, gans)
 
 #starte die Autobewegung
 auto.bewegung
@@ -205,5 +205,8 @@ auto4.bewegung
 end
 
 Ich schreibe jetz was hier rein, damit der Konflikt endlich klappt!
+
+Und wie siehts jetzt aus?
+2+2=4
 
 
