@@ -196,7 +196,7 @@ auto4 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, frosch
 auto5 = Fahrzeug.new(self, "Frogger_Auto_Hellblau.png",60,30,60,400,1, 1, gans)
 
 #starte die Autobewegung
-auto.bewegung
+auto.bewegung2jkj
 auto2.bewegung
 auto3.bewegung
 auto4.bewegung
