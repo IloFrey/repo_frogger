@@ -136,7 +136,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
 
   class Fahrzeug
 
-    def initialize(app, pfad, breite, hoehe, x, y, geschwindigkeit, direction, koll_object )
+    def initialize(app, pfad, breite, hoehe, x, y, , direction, koll_object )
       @app = app
       @x_position = x
       @y_position = y
@@ -144,7 +144,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
       @direction = direction
       @kollisionsobjekt = koll_object
       @startposition = x
-      @image = @app.image pfad, width:breite, height:kkk
+      @image = @app.image pfad, width:breite, height:hoehe
     end
 
     def bewegung
