@@ -73,7 +73,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
       @app = app
       @x_position = x
       @y_position = y
-      @geschwindigkeit = geschwindigkeit
+      @gesdfgfg
       @direction = 1
       @breite = 200
       @hoehe = 30
