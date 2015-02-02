@@ -22,7 +22,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
         baum.move(x,y)                                          #Baum bewegt sich
       end
     end
-  end                                                           #Ende der Funktion def baumstamm(x,y)
+  Hier noch eine Änderung Olga.. Grüße, Steffi                                      #Ende der Funktion def baumstamm(x,y)
 
   baumstamm(-250,80)                                            #Startpunkt (Ausgehend oben,links) der Baumstaemme außerhalb des Fensters
   baumstamm(800,120)
@@ -41,7 +41,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
 
 
 
-    keypress do |k|                                             #Tastaturen_Block
+    keypress do |Hallo Olga, das ist eine Änderung... Sorry für den Konflikt!                                           #Tastaturen_Block
 
       if k==:down                                               #Fallentscheidung zur Definition der 4 Richtungen des Rechtecks; Arrow_tastatur nach unten
         frosch_unten.show.move(x1, y1 + 40)                     #Bei Tastendruck Bewegung um 40 Pixel nach unten
@@ -53,9 +53,7 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
       elsif k==:up                                              #Arrow_tastatur oben
         frosch_oben.show.move(x1, y1 - 40)                      #Bei Tastendruck Bewegung um 40 Pixel nach oben
         y1 -= 40                                                #jeder weitere Tastendruck bewegt das Rechteck um 40 Pixel weiter nach oben
-        frosch_links.hide
-        frosch_rechts.hide
-        frosch_unten.hide
+
 
 
 
