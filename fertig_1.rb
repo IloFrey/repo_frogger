@@ -125,23 +125,7 @@ Shoes.app width: FENSTER_BREITE, height: FENSTER_HOEHE do
             @direction = 1
           end
 
-          @x_position = @x_position + @geschwindigkeit * @direction
-          @image.move(@x_position,@y_position)
 
-          #Prüfe ob der Frosch auf dem Baustamm sitzt und bewege ihn mit, falls ja
-          if @spielobjekt.get_y == @y_position
-
-            rand_rechts = @x_position + @breite
-            rand_links = @x_position
-            frosch_x = @spielobjekt.get_x
-
-            if frosch_x >= rand_links and frosch_x <= rand_rechts
-              frosch_x = frosch_x + @geschwindigkeit * @direction
-              @spielobjekt.bewegen(frosch_x, @spielobjekt.get_y)
-            else
-              @spielobjekt.leben_verloren(animation)
-            end
-          end
         end
       end
     end

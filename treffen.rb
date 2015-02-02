@@ -62,3 +62,4 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
         DIES IST EINE ÄNDERUNG DURCH STEFASHKA
 
 
+MEINE ÄNDERUNG
