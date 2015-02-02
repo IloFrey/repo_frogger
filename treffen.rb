@@ -75,5 +75,9 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
                                                             #Tastaturblock ende
    end
 end
-                                                           #Block Bewegung ende
+
+                            def neue methode
+
+                              hdbchshh#Block Bewegung ende
+                            end
 
