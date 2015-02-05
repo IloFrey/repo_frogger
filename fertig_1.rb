@@ -226,7 +226,7 @@ auto.bewegung2jkj
 auto2.bewegung
 auto3.bewegung
 auto4.bewegung
-
+#funtktioniert einfach nciht
 @y_position = @start_position_y
 
 end
