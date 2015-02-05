@@ -7,9 +7,13 @@ Shoes.app width: 800, height: 480 do                            #groeße der Spe
   def baumstamm(x,y)                                            #Funktion fuer Baumstamm mit uebergabeparameter x,y, um spaeter nur noch die Startpunk x,y der einzelnen Baumstaemme angeben zu muessen.
 
     speed = 1                                                 #Variable die spaeter hilft, dass der Baumstamm  sich immer um 1 Pixel weiter bewegt
-    direction = 1                                               #Initialisierungswert - Ich bestimme die Anfangsrichtung
+ ja schon wieder was verändert                                             #Initialisierungswert - Ich bestimme die Anfangsrichtung
 
-
+    frosch_oben = image "frogger_spielfigur_up.png", width: 40, height: 40
+    frosch_links = image "frogger_spielfigur_left.png", width: 40, height: 40
+    frosch_rechts = image "frogger_spielfigur_right.png", width: 40, height: 40
+    frosch_unten = image "frogger_spielfigur_down.png", width: 40, height: 40
+    frosch_oben.move(400,440)
 
     Frogger Frogg frogg frogger Frogg
 
